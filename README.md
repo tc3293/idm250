@@ -1,4 +1,4 @@
-dsfsdfsdfs# IDM250: Content Management Systems
+# IDM250: Content Management Systems
 
 ## Overview
 
