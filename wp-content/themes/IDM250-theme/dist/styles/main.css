@@ -8,7 +8,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #FFF6E4;
 }
-
+/*-------------------Logo header----------------------*/
 #main_menu{
     list-style: none;
     padding: 0;
@@ -18,7 +18,7 @@ body {
 .logo{
     display: inline-block;
 }
-
+/*-------------------header---------------------------*/
 #header{
     text-align: center;
 }
@@ -43,5 +43,83 @@ body {
 .header2 a:hover {
     background: #663100;
     color: #FFF6E4;
-    border-radius: 25px;
+    border-radius: 20px;
 }
+/*-------------------Footer---------------------------*/
+#footer{
+    position: fixed; /*CHANGE THIS TO fixed->BLOCK TO STOP FOOTER FOLLOW SCREEN*/
+    background-color: #1B0D0A;
+    width: 100%;
+    text-align: center;
+    transition: .4s;
+    color:white;
+}
+.footer2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+}
+.footer2 li{
+    display: inline-block;
+}
+.footer2 a{
+    text-decoration: none;
+    width: 100px;
+    display: block;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-decoration: uppercase;
+    font-weight: bold;
+    color: white;
+}
+.footer2 a:hover {
+    background: #FFF6E4;
+    color: black;
+    border-radius: 20px;
+}
+.copyright{
+    font-size: 15px;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFF6E4;
+}
+
+/*-----------Header/Footer Responsive----------*/
+@media only screen and (max-width:768px){
+.header2{
+    position: block;
+    text-align: center;
+    transition: 0.4s;
+    font-size: 20px;
+}
+.header2 a{
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+}
+
+@media only screen and (max-width:768px){
+    .footer2{
+        position: block;
+        text-align: center;
+        transition: 0.4s;
+        font-size: 20px;
+    }
+    .footer2 a{
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+    }
+
+/*----------------------------------------*/
+
