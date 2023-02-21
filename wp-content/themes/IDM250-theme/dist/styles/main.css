@@ -47,7 +47,7 @@ body {
 }
 /*-------------------Footer---------------------------*/
 #footer{
-    position: fixed; /*CHANGE THIS TO fixed->BLOCK TO STOP FOOTER FOLLOW SCREEN*/
+    position: block; /*CHANGE THIS TO fixed->BLOCK TO STOP FOOTER FOLLOW SCREEN*/
     background-color: #1B0D0A;
     width: 100%;
     text-align: center;
