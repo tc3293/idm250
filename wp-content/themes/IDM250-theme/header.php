@@ -11,33 +11,9 @@
   <?php wp_head(); ?>
 </head>
 
+<body <?php body_class(); ?>>
 
-
-
-<!--below here is hamburger menu or mobile-->
-<nav>
-  <!--this is the logo bear icon here-->
-<!--this is the logo bear icon above ^^-->
-<!--below here is hamburger menu or mobile-->
-  <button class="my-button" id="my-button">
-  <i class="fa-solid fa-bars"></i>
-  </button>
-
-  <div id="main_menu">
-  <div class="logo">
-    <a href=""><img src="/idm250/wp-content/themes/IDM250-theme/dist/image/bearlogo.png" alt="bear"></a>
-  </div>
-</div> <br> <br>
-<ul id="mynav" class="header2"> 
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-</ul>
-</nav>
-
-
-
-
+<?php get_template_part('components/main_nav'); ?>
 <div id="header" <?php body_class(); ?>>
 <div class="header2">
   <?php
@@ -48,16 +24,3 @@
 
 
 
-<?php wp_nav_menu(['theme_location' => 'primary-menu']); ?>
-  </div></div>
-  <br><br><br><br>
-<!----<header>
-    <h1>Logo</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>  --->

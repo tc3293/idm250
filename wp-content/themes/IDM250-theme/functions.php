@@ -62,17 +62,6 @@ function register_theme_menus()
 }
 add_action('init', 'register_theme_menus');
 
-//menu items 
-function get_theme_menu($menu_name)
-{
-    // Get menu items as a flat array
-    $locations = get_nav_menu_locations();
-    $menu = wp_get_nav_menu_object($locations[$menu_name]);
-    $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
-    return $menu_items;
-}
-
-
 //register albums post type
 
 function register_custom_post_types()
@@ -96,3 +85,22 @@ function register_custom_post_types()
 }
 
 add_action('init', 'register_custom_post_types');
+
+/**
+ * Get menu items as a flat array to use for custom markup
+ * @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
+ * @param string $menu_name - Name of the registered menu id
+ * @return array $menu_items - Array of WP_Post objects.
+ */
+function get_theme_menu($menu_name)
+{
+    // Get menu items as a flat array
+    $locations = get_nav_menu_locations();
+    // If menu doesn't exist, let's just return an empty array
+    if (!isset($locations[$menu_name])) {
+        return [];
+    }
+    $menu = wp_get_nav_menu_object($locations[$menu_name]);
+    $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
+    return $menu_items;
+}
