@@ -25,7 +25,7 @@
 
   <div id="main_menu">
   <div class="logo">
-    <a href=""><img src="/wp-content/themes/IDM250-theme/dist/image/bearlogo.png" alt="bear"></a>
+    <a href=""><img src="/idm250/wp-content/themes/IDM250-theme/dist/image/bearlogo.png" alt="bear"></a>
   </div>
 </div> <br> <br>
 <ul id="mynav" class="header2"> 
