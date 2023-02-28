@@ -11,3 +11,13 @@ if (have_posts()) {
 }
   ?>
 </div>
+
+<div class="images">
+<?php
+// check if the post or page has a Featured Image assigned to it.
+if (has_post_thumbnail()) {
+    the_post_thumbnail();
+}
+?>
+
+</div>

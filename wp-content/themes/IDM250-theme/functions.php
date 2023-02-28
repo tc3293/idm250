@@ -61,3 +61,38 @@ function register_theme_menus()
     );
 }
 add_action('init', 'register_theme_menus');
+
+//menu items 
+function get_theme_menu($menu_name)
+{
+    // Get menu items as a flat array
+    $locations = get_nav_menu_locations();
+    $menu = wp_get_nav_menu_object($locations[$menu_name]);
+    $menu_items = wp_get_nav_menu_items($menu->term_id, ['order' => 'DESC']);
+    return $menu_items;
+}
+
+
+//register albums post type
+
+function register_custom_post_types()
+{
+    // Register Albums post type and u can continue copy paste for more.
+    register_post_type(
+        'albums',
+        [
+            'labels' => [
+                'name' => __('Albums'),
+                'singular_name' => __('Album')
+            ],
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => ['slug' => 'albums'],
+            'supports' => ['title', 'editor', 'thumbnail', 'excerpt'],
+            'show_in_rest' => true,
+            'menu_position' => 5,
+        ]
+    );
+}
+
+add_action('init', 'register_custom_post_types');

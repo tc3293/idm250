@@ -45,6 +45,9 @@ body {
     color: #FFF6E4;
     border-radius: 20px;
 }
+/*-------------------header2 can use this css ^---------------------------*/
+
+
 /*-------------------Footer---------------------------*/
 #footer{
     position: block; /*CHANGE THIS TO fixed->BLOCK TO STOP FOOTER FOLLOW SCREEN*/
@@ -104,6 +107,9 @@ body {
     text-decoration: none;
     padding: 10px 20px;
 }
+.logo {
+    margin-right: 75px;
+}
 }
 
 @media only screen and (max-width:768px){
@@ -120,6 +126,159 @@ body {
         padding: 10px 20px;
     }
     }
+/*-------------------MOBILE Hamburger menu---------------------------*/
 
-/*----------------------------------------*/
+.my-button {
+    background-color: transparent;
+    border: 10px;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 32px;
+    float: left;
+    line-height: 70px;
+    display: none;
+}
+.my-button:focus {
+    outline: none;
+  }
+nav {
+    background-color: #FFF6E4;
+    flex-wrap: wrap;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none
+}
+nav ul li {
+    padding: 20px 20px;
+    text-align: center;
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+nav ul li:hover {
+    text-decoration: none;
+    text-decoration-color: rgb(0, 0, 0);
+}
 
+@media (max-width: 800px) {
+    nav ul {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+    }
+    
+    nav ul.show {
+      display: flex;
+    }
+    
+    .my-button {
+      display: block;
+    }
+  }
+
+@media (max-width: 600px) {
+    nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .my-button {
+    display: block;
+  }
+   nav {
+    background-color: #FFF6E4;
+    }
+}
+
+
+/*-----------------This is CSS FROM PAUL github-----------------------*/
+content-blocks h1 {
+    font-weight: bold;
+    font-size: 28px;
+   }
+  
+   .content-blocks h2 {
+    font-weight: bold;
+    font-size: 28px;
+   }
+   .content-blocks p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+   }
+
+  /* CSS IMAGE HERE*/
+   .content-blocks > * + * {
+    margin-top: 20px;
+    align-items: center;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+   }
+  
+   .content-blocks > h2 + p {
+    margin-top: 20px;
+   }
+   .images {
+    margin-top: 20px;
+    align-items: center;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 70%;
+   }
+
+   @media (max-width: 800px) {
+    .content-blocks > * + * {
+    width: 100%;
+    }
+    .content-blocks h1 {
+        font-weight: bold;
+        font-size: 18px;
+
+       }
+    .content-blocks h2 {
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+       }
+       .content-blocks p {
+        text-align: justify;
+        font-size: 14px;
+        left: 10px;
+        right: 10px;
+        padding: 20px;
+
+       }
+    .images {
+        margin-top: 20px;
+        align-items: center;
+        display: block;
+        margin-left:auto;
+        margin-right: auto;
+        width: 70%;
+        overflow: hidden;
+    }
+    p{
+        padding: 20px;
+    }
+   }
+
+
+/*-----------------This is CSS for single.php-----------------------*/
+.blog-categories {
+
+}
+.wp-block-embed {
+    width: 390px;
+    height: 300px;
+}
