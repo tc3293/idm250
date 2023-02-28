@@ -1,6 +1,6 @@
 
 
-<?php // this is the nav menu for header
+<?php // this is the nav menu for header SUCH AS MOBILE RESPONSIVE HAMBURGER MENU
     $menu = get_theme_menu('primary-menu'); 
 ?>
 
