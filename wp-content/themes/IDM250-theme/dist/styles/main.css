@@ -2,6 +2,10 @@
     box-sizing:  border-box;
 }
 
+p {
+    text-decoration: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -273,6 +277,7 @@ content-blocks h1 {
     }
     p{
         padding: 20px;
+        text-decoration: none;
     }
     .header3 {
         text-decoration: none;
