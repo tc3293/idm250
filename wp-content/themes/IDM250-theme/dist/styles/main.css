@@ -292,3 +292,6 @@ content-blocks h1 {
 .header3 {
     text-decoration: none;
 }
+.has-text-align-center {
+    color: white;
+}
