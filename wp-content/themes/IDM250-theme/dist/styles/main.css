@@ -110,6 +110,9 @@ body {
 .logo {
     margin-right: 75px;
 }
+.header4 {
+    color: #FFF6E4;
+}
 }
 
 @media only screen and (max-width:768px){
