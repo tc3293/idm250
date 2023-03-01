@@ -1,5 +1,3 @@
-
-
 <div class="content-blocks">
   <?php
 if (have_posts()) {

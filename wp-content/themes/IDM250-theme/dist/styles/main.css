@@ -274,14 +274,19 @@ content-blocks h1 {
     p{
         padding: 20px;
     }
+    .header3 {
+        text-decoration: none;
+    }
    }
 
 
 /*-----------------This is CSS for single.php-----------------------*/
 .blog-categories {
-
 }
 .wp-block-embed {
     width: 390px;
     height: 300px;
+}
+.header3 {
+    text-decoration: none;
 }
