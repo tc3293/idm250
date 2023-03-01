@@ -2,7 +2,9 @@
     box-sizing:  border-box;
     text-decoration: none;
 }
-
+a {
+    color: white;
+}
 body {
     margin: 0;
     padding: 0;
@@ -291,7 +293,4 @@ content-blocks h1 {
 }
 .header3 {
     text-decoration: none;
-}
-.has-text-align-center {
-    color: white;
 }
