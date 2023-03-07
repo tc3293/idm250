@@ -1,9 +1,9 @@
+
 <?php get_header(); ?>
 
 <!--THIS TESTING AND FIND WHERE THIS TEXT FROM PHP
 <h1><?php //echo get_the_title(); ?></h1>
 <div><?php //echo get_the_excerpt(); ?></div> -->
-
 <div class="imager">
 <?php
 // check if the post or page has a Featured Image assigned to it.

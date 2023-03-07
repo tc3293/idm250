@@ -63,7 +63,7 @@ body {
 .footer2 ul {
     list-style: none;
     padding: 0;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
 }
 .footer2 li{
@@ -71,30 +71,38 @@ body {
 }
 .footer2 a{
     text-decoration: none;
-    width: 100px;
+    width: 215px;
     display: block;
-    padding: 10px 10px;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: uppercase;
     font-weight: bold;
     color: white;
+    align-items: center;
 }
 .footer2 a:hover {
-    background: #FFF6E4;
+    background: #d69d2a;
     color: black;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .copyright{
     font-size: 15px;
 }
+
+/*
 .icons {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 25px;
     color: #FFF6E4;
+} 
+.icons {
+    padding: 30px 0;
 }
+.icons:hover {
+    background-color: red;
+} */
 
 /*-----------Header/Footer Responsive----------*/
 @media only screen and (max-width:768px){
@@ -123,13 +131,12 @@ body {
         position: block;
         text-align: center;
         transition: 0.4s;
-        font-size: 20px;
+        font-size: 12px;
     }
     .footer2 a{
-        width: 100%;
+        width: 115px;
         display: block;
         text-decoration: none;
-        padding: 10px 20px;
     }
     }
 /*-------------------MOBILE Hamburger menu---------------------------*/
@@ -293,4 +300,112 @@ content-blocks h1 {
 }
 .header3 {
     text-decoration: none;
+}
+
+/*-----------------This is CSS for 404.php page-----------------------*/
+
+/* GRRRR! */
+h5 {
+    font-family: 'Georgia, 'Times New Roman', Times, serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 69px;
+    color: #000000;
+    text-align: center;
+    }
+    
+    h4 {
+      text-shadow: red 2px 1px;
+      font-family: 'Georgia, 'Times New Roman', Times, serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 69px;
+    color: #000000;
+    text-align: center;
+    }
+
+    .wrapper{
+      width:100%;
+    }
+    
+    /*COME BACK FIXED THIS HERO IMAGE SIZE*/
+    img{
+      max-width:100%;
+      margin:1em 0;
+    }
+
+    @media (max-width: 800px) {
+        .zoomme img {
+            max-width: 100%;
+            height: 300px;
+        }
+    }
+
+    .center1{
+        margin:1em auto;
+        display:block;
+     }
+    .center{
+        margin:1em auto;
+        display:block;
+     }
+    
+    p{
+      font-family: 'Georgia, 'Times New Roman', Times, serif';
+      text-align: center;
+      font-size: 30px;
+    }
+    
+    .center1 {
+      width: 150px;
+      height: 40px;
+      border-radius: 5px;
+      padding: 10px 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      background: linear-gradient(0deg, #FEBB82 0%, rgb(234, 204, 128) 100%);
+      border: none;
+      font-weight: bold;
+      color: black;
+      font-size: 16px;
+    }
+    .center1:hover {
+    background: #FFF6E4;
+    color: white;
+    background: linear-gradient(0deg, #795e0f 0%, rgb(228, 163, 43) 100%);
+    }
+    
+    /*-----------------This is CSS for 404.php page MOBILE-----------------------*/
+    @media (max-width: 800px) {
+        h5 {
+            font-size: 35px;
+            text-align: center;
+        }
+        .wrapper {
+        }
+        .center{
+         }
+        }
+        
+
+/*-----------------This is CSS for page.php page or template 1 page-----------------------*/
+.zoomme {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:contain;
+}
+
+
+@media (max-width: 800px) {
+    .img {
+        height: 300px;
+    }
 }

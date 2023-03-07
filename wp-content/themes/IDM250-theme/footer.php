@@ -4,7 +4,7 @@
     <div class="footer2">
 <?php wp_nav_menu(['theme_location' => 'footer-menu']); ?>
 <div class ="icons">
-  <p>Coming soon, Social Media icon here</p>
+  <!--<b href="#"><i class="fa-brands fa-facebook"></i></b> -->
 </div></div>
 
 
