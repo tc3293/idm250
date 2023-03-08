@@ -1,5 +1,5 @@
-<header>
-  <img class="logo" src="/wp-content/themes/IDM250-theme/dist/image/bearlogo.png" alt="">
+<!-- THIS IS USELESS HEADER2 template <header>
+  <img class="logo" src="<?php echo get_template_directory_uri(); ?>/dist/image/bearlogo.png" alt="">
   <?php
       // There are two ways to get the menu items:
       // 1. wp_nav_menu(['theme_location' => 'primary-menu']); @link https://developer.wordpress.org/reference/functions/wp_nav_menu/
@@ -13,4 +13,4 @@
     } ?>
   </nav>
   <?php } ?>
-</header>
+</header> -->

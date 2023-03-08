@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 <?php 
-/*Template name: Page.php Default Page1*/
-/*page.php find this file, this is going to build for blog, find this file, this is going to build for blog*/
+/*page.php find this file, this is going to build for default page, find this file, this is going to build for bakery page*/
 ?>
 <!-- THIS IS THE HERO IMAGE CODE -->
 <div class="zoomme">
