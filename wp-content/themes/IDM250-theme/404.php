@@ -3,7 +3,7 @@
 /* Template Name: 404 Page*/
 // testing echo 'is working 404.php page'
 ?>
-<br><br><br>
+<br><br><br><br><br><br><br>
 <h5 class="grrr"> GRRRRRRRR!</h5>
 
 <div class="wrapper">
@@ -13,7 +13,7 @@
  <h4>404</h4>
 <p> Page Not Found </p>
 <br>
-<a href="https://google.com"><button class="center1"> Return</button> </a>
+<a href="https://junchenn.com/idm250/"><button class="center1"> Return</button> </a>
 
 
 <?php get_footer('simple'); ?>
