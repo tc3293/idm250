@@ -292,7 +292,7 @@ content-blocks h1 {
 .blog-categories {
 }
 .wp-block-embed {
-    width: 390px;
+    /* width: 390px; */
     height: 300px;
 }
 .header3 {
@@ -411,3 +411,125 @@ h5 {
         height: 300px;
     }
 }
+
+/*SINGLE.PHP FILE CSS*/
+.post {
+    background-color: rgb(234, 204, 128);
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .post h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .post .entry {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  span1 {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 5px;
+  }
+
+  .wp-block-embed__wrapper{
+    text-align: center;
+  }
+  .wp-block-embed__wrapper iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+/*blockquote image of css design*/
+blockquote {
+    background-image: url('https://i.imgur.com/boAbp3b.png');
+    background-size: cover;
+    padding: 30px;
+    margin: 30px 0;
+}
+@media (max-width: 800px) {
+    blockquote {
+    background-image: url('https://i.imgur.com/bexXdJm.png');
+    background-size: cover;
+    padding: none;
+    margin: 30px 0;
+    }
+}
+
+/*sidebar css*/
+#sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#sidebar p {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.widget {
+    margin-bottom: 30px;
+}
+
+.widget-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* SEARCH BAR CSS HERE */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .search-field {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding-left: 10px;
+  }
+  
+  .search-submit {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .search-form {
+      justify-content: center;
+    }
+  
+    .search-field {
+      width: 100%;
+    }
+  
+    .search-submit {
+      display: none;
+    }
+  }

@@ -3,6 +3,11 @@
 <!-- THIS IS THE TARGET ECHO THE TITLE OF H1-->
 <!--- <h1><?php //echo get_the_title(); //get title of call home ?></h1> -->
 
+
+
+<!-- THIS IS SEARCH BAR PHP -->
+<?php get_search_form(); ?>
+
 <!-- THIS IS THE HERO IMAGE CODE -->
 <div class="images">
 <?php
@@ -13,6 +18,8 @@ if (has_post_thumbnail()) {
 ?>
 
 </div>
+
+
 
 
 

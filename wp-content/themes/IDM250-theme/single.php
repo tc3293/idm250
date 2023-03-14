@@ -20,14 +20,31 @@ $currentPostId = get_the_id();
 $terms = get_the_terms($currentPostId, 'category');
 if ($terms) {
     foreach ($terms as $term) {
-        echo "<span>{$term->name},</span>";
+        echo "<span1>{$term->name},</span1>";
     }
 }
 ?>
 </div>
 
+<?php while (have_posts()) : the_post(); ?>
+<!-- 
+<aside id="sidebar">
+    <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+        <?php dynamic_sidebar( 'sidebar-1' ); ?>
+    <?php endif; ?>
+    <p>sadsad</p>
+</aside>
+ -->
+
+  <div class="post">
+    <div class="entry">
+      <?php the_content(); ?>
+    </div>
+  </div>
+<?php endwhile; ?>
 
 
-<?php get_template_part('components/content'); ?>
+
+<!-- THIS IS GET TEMPLATE ON SINGLE.PHP <?php get_template_part('components/content'); ?> -->
 
 <?php get_footer(); ?>
