@@ -1,8 +1,8 @@
 <?php
 
-/* Template Name: Default 2*/
+/* Template Name: Listing Page */
 
-// echo 'This is the default2.php'
+echo 'This is the ListingPage.php'
 
 ?>
 
@@ -11,7 +11,7 @@
 <?php get_header(); ?>
 
 <!-- FIX THIS TO MAKE DEFAULT TITLE Show up -->
-<h2><?php echo get_the_title(); ?></h2>
+<h1><?php echo get_the_title(); ?></h1>
 
 <?php get_template_part('components/content'); ?>
 

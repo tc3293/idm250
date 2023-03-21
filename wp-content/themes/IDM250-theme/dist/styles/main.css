@@ -222,6 +222,7 @@ content-blocks h1 {
    }
    .content-blocks p {
     font-size: 18px;
+    padding: 20px;
     font-family: 'Times New Roman', Times, serif;
    }
 
@@ -411,10 +412,23 @@ h5 {
         height: 300px;
     }
 }
+/*-----------------This is CSS for front-page or hero image-----------------------*/
+.hero-image{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-image: url("https://picsum.photos/id/477/1024/200"); */
+}
+
+.hero-image img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
 
 /*SINGLE.PHP FILE CSS*/
 .post {
-    background-color: rgb(234, 204, 128);
     margin: 10px 0;
     padding: 10px;
   }
@@ -447,14 +461,14 @@ h5 {
 
 /*blockquote image of css design*/
 blockquote {
-    background-image: url('https://i.imgur.com/boAbp3b.png');
+    background-image: url('https://i.imgur.com/D4DHUGE.png');
     background-size: cover;
     padding: 30px;
     margin: 30px 0;
 }
 @media (max-width: 800px) {
     blockquote {
-    background-image: url('https://i.imgur.com/bexXdJm.png');
+    background-image: url('https://i.imgur.com/wk72yl3.png');
     background-size: cover;
     padding: none;
     margin: 30px 0;
@@ -532,4 +546,21 @@ blockquote {
     .search-submit {
       display: none;
     }
+  }
+
+  /*H1 BOLD CSS HERE AND SIZE*/
+  h1 {
+    font-size: 38px;
+    line-height: 1.6;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  h2{
+    font-size: 38px;
+    line-height: 1.6;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-decoration: underline;
   }
