@@ -1,14 +1,13 @@
 <?php
 
-/* Template Name: Listing Page*/
+/* Template Name: testing listpage work*/
 
-echo 'This is the listing list page'
+echo 'This is the testing list page'
 
 ?>
 <?php get_header(); ?>
 
 <h1><?php echo get_the_title(); //get title of call home ?></h1>
-
 <?php 
 // PHP CODE TO RETRIEVE THE IMAGE URLS WOULD GO HERE
 $image_urls = [

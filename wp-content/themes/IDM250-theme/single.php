@@ -45,7 +45,6 @@ if ($terms) {
 <?php endwhile; ?>
 
 
-
 <!-- THIS IS GET TEMPLATE ON SINGLE.PHP <?php get_template_part('components/content'); ?> -->
 
 <?php get_footer(); ?>

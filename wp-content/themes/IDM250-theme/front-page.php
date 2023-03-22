@@ -14,7 +14,12 @@ if (has_post_thumbnail()) {
     the_post_thumbnail();
 }
 ?>
+<br><br>
+<!-- THIS IS SHOW UP RECENT POST --> <?php  
+get_template_part('components/recent-3post');
+?>
 
 <?php get_template_part('components/content'); ?>
+
 <?php get_footer(); ?>
 
