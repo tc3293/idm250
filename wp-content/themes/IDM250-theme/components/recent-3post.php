@@ -17,8 +17,8 @@ $args = [
 $project_posts_query = new WP_Query($args);
 
 ?>
-<div class="image-container clearfix">
-
+<!-- <div class="image-container clearfix"> -->
+<div class="container">
 <?php
         // Check if there are any posts
         if ($project_posts_query->have_posts()) {
@@ -33,14 +33,12 @@ $project_posts_query = new WP_Query($args);
                 $links = get_the_permalink();
                 
                 echo "
-                <div class='image-column'>
-                <div class='image-wrapper'>
-                <img class='hoveron' src='{$imgUrl}' alt='img' > 
-
-                <div class='view-image'> 
-                <a href='{$links}'>View Post</a>
-                
-                </div></div></div>
+                <div class='box'>
+                <div class='imgBox'>
+                <img src='{$imgUrl}' alt='img' class='image'> </div>
+                <div class='content'> 
+                <p><a class='content' href='{$links}'></a>Click it to find out the secret of the bread, hehehe </p>
+                </div></div>
                 ";
             }
 

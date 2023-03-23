@@ -18,7 +18,6 @@
             echo 'no posts found';
         }
 ?>
-
     </div>
   </div>
 </div>

@@ -15,7 +15,10 @@ if (has_post_thumbnail()) {
 }
 ?>
 <br><br>
-<!-- THIS IS SHOW UP RECENT POST --> <?php  
+
+<!-- THIS IS SHOW UP RECENT POST --> 
+
+<?php  
 get_template_part('components/recent-3post');
 ?>
 

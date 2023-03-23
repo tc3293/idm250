@@ -36,4 +36,6 @@ get_template_part('components/archive-listing');
 
 
 <?php get_template_part('components/content'); ?>
+
+
 <?php get_footer(); ?>
