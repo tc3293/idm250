@@ -49,6 +49,6 @@ $project_posts_query = new WP_Query($args);
         }?>
 </div> <br><br>
 <!-- HTML code for a button to view a page -->
-<button class='breadbutton' onclick="window.location.href='testinglistingpage.php'">View Page</button>
+<button class='breadbutton' onclick="window.location.href='https://junchenn.com/idm250/bread-list/'">View Page</button>
 
 <!-- <input type="button" value="Say Hi!" onclick="location='test.php'" /> -->

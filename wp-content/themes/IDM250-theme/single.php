@@ -44,7 +44,9 @@ if ($terms) {
   </div>
 <?php endwhile; ?>
 
-
+<?php  
+get_template_part('components/recent-6post');
+?>
 <!-- THIS IS GET TEMPLATE ON SINGLE.PHP <?php get_template_part('components/content'); ?> -->
 
 <?php get_footer(); ?>
