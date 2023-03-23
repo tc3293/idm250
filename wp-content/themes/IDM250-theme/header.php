@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image" href="<?php echo get_template_directory_uri(); ?>/dist/image/bearlogo.png">
   <title><?php echo get_the_title(); ?> | Bread</title>
   <?php // https://developer.wordpress.org/reference/functions/wp_head/;?>
   <?php wp_head(); ?>
