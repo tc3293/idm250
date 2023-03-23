@@ -2,7 +2,7 @@
 
 /* Template Name: Listing Page*/
 
-echo 'This is the listing list page'
+// echo 'This is the listing list page'
 
 ?>
 <?php get_header(); ?>

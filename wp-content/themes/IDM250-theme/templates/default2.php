@@ -15,5 +15,8 @@
 
 <?php get_template_part('components/content'); ?>
 
+<?php  
+get_template_part('components/recent-6post');
+?>
 
 <?php get_footer(); ?>
