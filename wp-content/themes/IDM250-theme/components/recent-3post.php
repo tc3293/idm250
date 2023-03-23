@@ -37,7 +37,7 @@ $project_posts_query = new WP_Query($args);
                 <div class='imgBox'>
                 <img src='{$imgUrl}' alt='img' class='image'> </div>
                 <div class='content'> 
-                <p><a class='content' href='{$links}'></a>Click it to find out the secret of the bread, hehehe </p>
+                <p><a class='content' href='{$links}'></a>Click it to find out the secret of the bread</p>
                 </div></div>
                 ";
             }
